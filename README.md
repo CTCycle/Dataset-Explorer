@@ -12,12 +12,15 @@ Requirement.txt file is provided to ensure full compatibility with the python ap
 ## Graphic interface
 
 Here you can find a snapshot of the program GUI. First, the main window:
+
 ![main_gui](https://github.com/CTCycle/Dataset-Explorer/assets/101833494/e619b8aa-a448-4558-9d00-385d58bbfe2e)
 
 Then, the window to perform data cleaning operations:
+
 ![sec_gui](https://github.com/CTCycle/Dataset-Explorer/assets/101833494/cbe8ff9b-d289-4d2e-bfd5-ee590cf60971)
 
 And finally, the GUI to navigate the various options for data analysis
+
 ![sec2_gui](https://github.com/CTCycle/Dataset-Explorer/assets/101833494/1277c18b-0371-4e20-9bff-9833d132615e)
 
 
