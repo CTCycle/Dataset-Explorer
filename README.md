@@ -9,6 +9,9 @@ Run the main python file (DataExplorer.py) and use the GUI to navigate the vario
 ### Requirements
 Requirement.txt file is provided to ensure full compatibility with the python application. The application has been tested using Python 3.10.12 
 
+### Program structure 
+Coming soon
+
 ## Graphic interface
 
 Here you can find a snapshot of the program GUI. First, the main window:
