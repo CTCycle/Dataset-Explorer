@@ -21,7 +21,6 @@ if getattr(sys, 'frozen', False):
 else:    
     initial_folder = os.path.dirname(os.path.realpath(__file__))
 
-
 # [WINDOW THEME AND OPTIONS]
 #==============================================================================
 sg.theme('LightGrey1')

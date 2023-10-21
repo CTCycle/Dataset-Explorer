@@ -9,8 +9,19 @@ Run the main python file (DataExplorer.py) and use the GUI to navigate the vario
 ### Requirements
 Requirement.txt file is provided to ensure full compatibility with the python application. The application has been tested using Python 3.10.12 
 
-### Program structure 
-Coming soon
+### Navigate the GUI
+The main window is divided in 3 frames. 
+
+The upper frame allows for selecting an input folder (where you data is located) using the **Browse** button. All files in the folder will be available in the **List of files** dropdown menu. Once you have selected a file, the other buttons become functional.
+
+The middle frame provides different options for data cleaning and data analysis:
+
+**Cleaning data:** launches a second window to perform data cleaning operations
+**Convert epochs:** convert epoch data to datetime (finds epoch column by keyword in the column title)
+
+**Description report:** generates a statistical descriptive report of the dataset
+**Data analysis:** launches a second window to perform data analysis operations
+
 
 ## Graphic interface
 

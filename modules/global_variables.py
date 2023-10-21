@@ -1,7 +1,7 @@
 import pandas as pd
 
-# variables for data series recognition
-#==============================================================================
+# data storage variables
+#------------------------------------------------------------------------------
 list_of_files = []
 dataframe_name = ''
 dataframe = pd.DataFrame()
