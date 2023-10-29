@@ -1,25 +1,21 @@
-# [IMPORT PACKAGES AND SETTING WARNINGS]
-#==============================================================================
 import os
 import sys
 import pandas as pd
 import PySimpleGUI as sg
-import warnings
-warnings.simplefilter(action='ignore', category = DeprecationWarning)
-warnings.simplefilter(action='ignore', category = FutureWarning)   
 
-# [IMPORT MODULES AND CLASSES]
-#==============================================================================
-sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))       
+# set warnings
+#------------------------------------------------------------------------------
+import warnings
+warnings.simplefilter(action='ignore', category = Warning)
+
+# import modules and classes
+#------------------------------------------------------------------------------   
 from modules.components.data_classes import DataSetFinder
 import modules.global_variables as GlobVar
 
-# [DEFAULT FOLDER PATHS]
-#==============================================================================
-if getattr(sys, 'frozen', False):    
-    initial_folder = os.path.dirname(sys.executable)
-else:    
-    initial_folder = os.path.dirname(os.path.realpath(__file__))
+# set default folder path
+#------------------------------------------------------------------------------ 
+initial_folder = os.path.dirname(os.path.realpath(__file__))
 
 # [WINDOW THEME AND OPTIONS]
 #==============================================================================
