@@ -1,28 +1,27 @@
-# [IMPORT PACKAGES AND SETTING WARNINGS]
-#==============================================================================
 import os
 import sys
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import PySimpleGUI as sg
+
+# set warnings
+#------------------------------------------------------------------------------
 import warnings
-warnings.simplefilter(action='ignore', category = DeprecationWarning)
-warnings.simplefilter(action='ignore', category = FutureWarning) 
+warnings.simplefilter(action='ignore', category = Warning)
 
-
-# [IMPORT MODULES AND CLASSES]
-#==============================================================================
+# add modules path if this file is launched as __main__
+#------------------------------------------------------------------------------
 if __name__ == '__main__':
     sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+# import modules and components
+#------------------------------------------------------------------------------
 from modules.components.plot_classes import DistributionPlot
 from modules.components.data_classes import MultiCorrelator
 import modules.global_variables as GlobVar
 
-# [DEFAULT FOLDER PATHS]
-#==============================================================================
-if getattr(sys, 'frozen', False):    
-    initial_folder = os.path.dirname(os.path.dirname(sys.executable))
-else:    
-    initial_folder = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+# set default folder path
+#------------------------------------------------------------------------------ 
+initial_folder = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
 # [WINDOW THEME AND OPTIONS]
 #==============================================================================

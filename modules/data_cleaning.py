@@ -1,19 +1,19 @@
-# [IMPORT PACKAGES AND SETTING WARNINGS]
-#==============================================================================
 import os
-import sys
-import PySimpleGUI as sg
-import warnings
-warnings.simplefilter(action='ignore', category = DeprecationWarning)
-warnings.simplefilter(action='ignore', category = FutureWarning)   
+import PySimpleGUI as sg  
 
-# [IMPORT MODULES AND CLASSES]
-#==============================================================================
-if __name__ == '__main__':
-    sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+# set warnings
+#------------------------------------------------------------------------------
+import warnings
+warnings.simplefilter(action='ignore', category = Warning)
+
+# import modules and classes
+#------------------------------------------------------------------------------   
 from modules.components.data_classes import DataCleaning
 import modules.global_variables as GlobVar
 
+# set default folder path
+#------------------------------------------------------------------------------ 
+initial_folder = os.path.dirname(os.path.realpath(__file__))
 
 # [WINDOW THEME AND OPTIONS]
 #==============================================================================
