@@ -1,15 +1,10 @@
 # Dataset-Explorer
 
 ## Project description
-This is a simple python-based GUI application to clean data and briefly analyze distribution of variables in a dataset. The application makes use of different methods for plotting histograms and cumulative distribution functions (CDF) of each column in the dataframe, and for calculating the correlation matrix based on different methodologies such as Pearson, Kendall, and Spearman. The script also provides a way to filter the correlation coefficients based on a user-defined threshold, and generates plots and outputs that can be saved in designated folders. 
+This is a simple python-based GUI application to clean data and briefly analyze distribution of variables in a dataset. The application makes use of different methods for plotting histograms and cumulative distribution functions (CDF) of each column in the dataframe, and for calculating the correlation matrix based on different methodologies such as Pearson, Kendall, and Spearman correlation. The script also provides a way to filter the correlation coefficients based on a user-defined threshold, and generates plots and outputs that can be saved in designated folders. 
 
 ## How to use
-Run the main python file (DATAEXP.py) and use the GUI to navigate the various options. 
-
-### Main window
-The main window is divided in 3 sections, in the upper part you can select an input folder (where you data is located) using the **Browse** button. All files in the folder will be available in the **List of files** dropdown menu. Once you have selected a file, the other buttons become functional. In the lower section, you can select the output folder where to save your data.
-
-The main window provides different options for data cleaning and data analysis:
+Run the main python file (DATAEXP.py) and use the GUI to navigate the various options. In the main window you will find the **Browse** button, which allows to select the target folder where your files are stored. Then, all files in the folder will be available in the **List of files** dropdown menu. Once you have selected a specific file, the other buttons will become functional, since they are deactivated by default. At the bottom of the main GUi, you canm also select the output folder where to save your processed data. Different options for data cleaning and data analysis are provided:
 
 **Cleaning data:** launches a second window to perform data cleaning operations
 
@@ -20,8 +15,10 @@ The main window provides different options for data cleaning and data analysis:
 **Data analysis:** launches a second window to perform data analysis operations
 
 ### Data cleaning window
+Coming soon
 
 ### Data analysis window
+Coming soon
 
 ### Requirements
 This application has been developed and tested using the following dependencies (Python 3.10.12):
@@ -37,15 +34,11 @@ This application has been developed and tested using the following dependencies 
 These dependencies are specified in the provided `requirements.txt` file to ensure full compatibility with the application. 
 
 ## Graphic interface
-Here you can find a snapshot of the program GUI. First, the main window:
+Here you can find some snapshots of the program GUI. From first to last, you can see the main window, the data cleaning window and finally the data analsys window:
 
 ![main_gui](https://github.com/CTCycle/Dataset-Explorer/assets/101833494/e619b8aa-a448-4558-9d00-385d58bbfe2e)
 
-Then, the window to perform data cleaning operations:
-
 ![sec_gui](https://github.com/CTCycle/Dataset-Explorer/assets/101833494/cbe8ff9b-d289-4d2e-bfd5-ee590cf60971)
-
-And finally, the GUI to navigate the various options for data analysis
 
 ![sec2_gui](https://github.com/CTCycle/Dataset-Explorer/assets/101833494/1277c18b-0371-4e20-9bff-9833d132615e)
 
