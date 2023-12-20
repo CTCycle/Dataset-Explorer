@@ -42,4 +42,5 @@ Here you can find some snapshots of the program GUI. From first to last, you can
 
 ![sec2_gui](https://github.com/CTCycle/Dataset-Explorer/assets/101833494/1277c18b-0371-4e20-9bff-9833d132615e)
 
-
+## License
+This project is licensed under the terms of the MIT license. See the LICENSE file for details.
